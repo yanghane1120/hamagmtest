@@ -3,7 +3,7 @@
 // ==========================================
 // 1. 日常精選市集商品清單 (marketProducts)
 // ==========================================
-const marketProducts = [ 
+const marketProducts = [
   {
     id: "f75",
     category: "tech",
@@ -42,7 +42,7 @@ const marketProducts = [
     searchTerms: "sony wh ch720n wireless noise cancelling over ear headphones black comfortable",
     amazonUrl: "https://link.amazon/B0fOtnGwN",
     videoId: "twG6BkAoNN0",
-    videoTitle: "0% FS GIVEN: When Your Cat Trolls the Dogs with Pure Silence 🎧💀*"
+    videoTitle: "0% FS GIVEN: When Your Cat Trolls the Dogs with Pure Silence 🎧💀"
   },
   {
     id: "echo-spot",
@@ -484,3 +484,8 @@ const authorBooks = [
     amazonUrl: "https://link.amazon/B00B19Hu5"
   }
 ];
+
+// 模組匯出支援（相容 Node.js / ES Module / 瀏覽器全域）
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { marketProducts, xiaobiNotebooks, authorBooks };
+}
