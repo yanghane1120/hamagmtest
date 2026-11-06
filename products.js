@@ -383,6 +383,16 @@ const marketProducts = [
     amazonUrl: "https://link.amazon/B07SIZZhc",
     videoId: "XqU-1WfCs5k",
     videoTitle: "She stared at him like a stranger… then THIS happened 🥺"
+  },
+  {
+    id: "catstages-tower-of-tracks",
+    category: "cat",
+    tag: "Cat Toys",
+    title: "Catstages Tower of Tracks Interactive Cat Toy (3 Tiers / 6 Spinning Balls)",
+    searchTerms: "catstages tower of tracks interactive cat toy 3 tiers 6 spinning balls chase swat hunting instinct indoor cats kittens",
+    amazonUrl: "https://link.amazon/B0bD6tyhv",
+    videoId: "cLiYgk0qVAY",
+    videoTitle: "Stranded on a desert island… but she only cared about THIS?! 😭🏝️"
   }
 ];
 
