@@ -3,7 +3,7 @@
 // ==========================================
 // 1. 日常精選市集商品清單 (marketProducts)
 // ==========================================
-const marketProducts = [
+const marketProducts = [ 
   {
     id: "f75",
     category: "tech",
