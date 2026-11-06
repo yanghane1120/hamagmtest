@@ -373,6 +373,16 @@ const marketProducts = [
     amazonUrl: "https://link.amazon/B0i0newiO",
     videoId: "WEOLqji7MrU",
     videoTitle: "Wait for what he brought her before she stepped into the snow… 😭"
+  },
+  {
+    id: "philips-shaver-2400",
+    category: "care",
+    tag: "Men's Grooming",
+    title: "Philips Norelco 2400 Series Electric Shaver (Wet & Dry / Pop-up Trimmer)",
+    searchTerms: "philips norelco 2400 series electric shaver cordless wet dry rechargeable mens grooming pop up trimmer x3001 90",
+    amazonUrl: "https://link.amazon/B07SIZZhc",
+    videoId: "XqU-1WfCs5k",
+    videoTitle: "She stared at him like a stranger… then THIS happened 🥺"
   }
 ];
 
