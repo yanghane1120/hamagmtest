@@ -395,7 +395,7 @@
       padding: 8px 10px;
       margin-top: auto;
       margin-bottom: 12px;
-      font-size: 12px;              /* 明顯小於商品的 14.5px */
+      font-size: 12px;
       line-height: 1.4;
       color: #475569;
       text-align: left;
@@ -408,7 +408,7 @@
     .card-video-title .video-text {
       font-weight: 500;
       display: -webkit-box;
-      -webkit-line-clamp: 2;        /* 最多兩行，避免撐高卡片 */
+      -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
       word-break: break-word;
@@ -748,14 +748,14 @@
   </div>
 
   <div class="search-box">
-    <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search keyboards, warm gloves, grooming, pet feeders...">
+    <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search keyboards, hats, scarves, grooming, pet feeders...">
   </div>
 
   <!-- 分類篩選標籤 -->
   <div class="filter-tabs" id="filterTabsWrap">
     <button class="tab active" data-cat="all" onclick="filterItems('all', this)">All Items</button>
     <button class="tab" data-cat="tech" onclick="filterItems('tech', this)">⌨️ Tech & Gaming</button>
-    <button class="tab" data-cat="winter" onclick="filterItems('winter', this)">🧤 Winter Gear</button>
+    <button class="tab" data-cat="apparel" onclick="filterItems('apparel', this)">🧢 Apparel & Wear</button>
     <button class="tab" data-cat="care" onclick="filterItems('care', this)">🦷 Personal Care</button>
     <button class="tab" data-cat="cat" onclick="filterItems('cat', this)">🐱 Cat Essentials</button>
     <button class="tab" data-cat="home" onclick="filterItems('home', this)">🏠 Home & Living</button>
@@ -851,8 +851,8 @@
     </div>
   </div>
 
-  <!-- 引入獨立資料庫 -->
-  <script src="products.js?v=3"></script>
+  <!-- 引入獨立資料庫 (版本號更新為 v4 避免瀏覽器快取舊資料) -->
+  <script src="products.js?v=4"></script>
 
   <!-- 多語言與頁面邏輯腳本 -->
   <script>
@@ -1028,7 +1028,7 @@
         catTag: "🐾 貓咪店長悄悄話 (每次重整刷新)",
         marketTitle: "🐾 HAMAGM 精選好物市集",
         marketDesc: "精選日常生活、效率提升與紓壓好物，打造無痛生活節奏。",
-        searchPlaceholder: "🔍 搜尋鍵盤、發熱手套、美容理毛、寵物餵食器...",
+        searchPlaceholder: "🔍 搜尋鍵盤、帽子、圍巾、美容理毛、寵物餵食器...",
         loadMore: "載入更多精選商品 👇",
         watchStory: "🎬 觀看貓咪短劇",
         viewAmazon: "前往 Amazon 查看 🛒",
@@ -1051,7 +1051,7 @@
         cats: {
           all: "全部商品",
           tech: "⌨️ 科技與電競",
-          winter: "🧤 保暖冬日好物",
+          apparel: "🧢 服飾與穿戴",
           care: "🦷 個人護理",
           cat: "🐱 貓咪必備",
           home: "🏠 居家生活",
@@ -1065,7 +1065,7 @@
         catTag: "🐾 Cat Manager's Whisper (Refreshed on each visit)",
         marketTitle: "🐾 HAMAGM Curated Market",
         marketDesc: "Hand-picked gear for better living, productivity, and stress-free everyday routines.",
-        searchPlaceholder: "🔍 Search keyboards, warm gloves, grooming, pet feeders...",
+        searchPlaceholder: "🔍 Search keyboards, hats, scarves, grooming, pet feeders...",
         loadMore: "Load More Gear 👇",
         watchStory: "🎬 Watch Cat Story",
         viewAmazon: "View on Amazon 🛒",
@@ -1088,7 +1088,7 @@
         cats: {
           all: "All Items",
           tech: "⌨️ Tech & Gaming",
-          winter: "🧤 Winter Gear",
+          apparel: "🧢 Apparel & Wear",
           care: "🦷 Personal Care",
           cat: "🐱 Cat Essentials",
           home: "🏠 Home & Living",
@@ -1102,7 +1102,7 @@
         catTag: "🐾 猫店長のささやき（リロードで更新）",
         marketTitle: "🐾 HAMAGM 厳選マーケット",
         marketDesc: "快適な毎日、生産性向上、ノーストレスな暮らしのための選りすぐりアイテム。",
-        searchPlaceholder: "🔍 キーボード、防寒手袋、グルーミング、給餌器を検索...",
+        searchPlaceholder: "🔍 キーボード、帽子、マフラー、グルーミング、給餌器を検索...",
         loadMore: "さらに読み込む 👇",
         watchStory: "🎬 ショート動画を見る",
         viewAmazon: "Amazonで見る 🛒",
@@ -1125,7 +1125,7 @@
         cats: {
           all: "全商品",
           tech: "⌨️ テック＆ゲーム",
-          winter: "🧤 冬の防寒グッズ",
+          apparel: "🧢 ファッション・身の回り品",
           care: "🦷 パーソナルケア",
           cat: "🐱 猫のおすすめ品",
           home: "🏠 暮らし・インテリア",
@@ -1139,7 +1139,7 @@
         catTag: "🐾 Worte vom Chefkater (Aktualisiert bei jedem Besuch)",
         marketTitle: "🐾 HAMAGM Kuratierter Markt",
         marketDesc: "Handverlesene Gadgets für Produktivität, Gemütlichkeit und stressfreien Alltag.",
-        searchPlaceholder: "🔍 Tastaturen, warme Handschuhe, Tierpflege suchen...",
+        searchPlaceholder: "🔍 Tastaturen, Mützen, Schals, Tierpflege suchen...",
         loadMore: "Mehr Produkte laden 👇",
         watchStory: "🎬 Katzen-Short ansehen",
         viewAmazon: "Auf Amazon ansehen 🛒",
@@ -1162,7 +1162,7 @@
         cats: {
           all: "Alle Artikel",
           tech: "⌨️ Gaming & Technik",
-          winter: "🧤 Winter-Ausrüstung",
+          apparel: "🧢 Kleidung & Accessoires",
           care: "🦷 Körperpflege",
           cat: "🐱 Katzenbedarf",
           home: "🏠 Wohnen & Leben",
@@ -1176,7 +1176,7 @@
         catTag: "🐾 Le mot du Maître Chat (Actualisé à chaque visite)",
         marketTitle: "🐾 HAMAGM Marché Sélectionné",
         marketDesc: "Des équipements choisis pour un quotidien détendu, efficace et sans tracas.",
-        searchPlaceholder: "🔍 Claviers, gants chauffants, soins, distributeurs...",
+        searchPlaceholder: "🔍 Claviers, casquettes, écharpes, distributeurs...",
         loadMore: "Charger plus d'articles 👇",
         watchStory: "🎬 Voir le court-métrage",
         viewAmazon: "Voir sur Amazon 🛒",
@@ -1199,7 +1199,7 @@
         cats: {
           all: "Tous les articles",
           tech: "⌨️ Tech & Gaming",
-          winter: "🧤 Confort d'hiver",
+          apparel: "🧢 Mode & Accessoires",
           care: "🦷 Soins personnels",
           cat: "🐱 Accessoires chat",
           home: "🏠 Maison & Déco",
