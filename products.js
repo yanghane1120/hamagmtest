@@ -490,7 +490,7 @@ const xiaobiNotebooks = [
     amazonUrl: "https://link.amazon/B02qBgJPT"
   },
   {
-    cover: "jrb3.jpg",
+    cover: "JRB3.jpg",
     fallbackCover: "book_jp.png",
     tag: "ペーパーバック",
     title: "小比うさぎのダメダメノート: ……ちゃんとノート書けるのか？ (皮肉たっぷりなブラックユーモア手帳・ギャグギフト)",
