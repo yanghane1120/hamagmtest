@@ -202,7 +202,7 @@ const marketProducts = [
     searchTerms: "stanley quencher h2 0 flowstate tumbler handle straw 30 oz cup holder compatible stainless steel rose quartz",
     amazonUrl: "https://link.amazon/B08TWhkGb",
     videoId: "31SNNPtm-Og",
-    videoTitle: "Stay Hydrated in渦 Style: Stanley Quencher H2.0 30oz"
+    videoTitle: "Stay Hydrated in Style: Stanley Quencher H2.0 30oz"
   },
   {
     id: "umite-dutch-oven",
@@ -562,7 +562,7 @@ const marketProducts = [
     searchTerms: "washington a life ron chernow pulitzer prize winner biography founding fathers george washington",
     amazonUrl: "https://link.amazon/B0d7muyNW",
     videoId: "u_USQY-grAY",
-    videoTitle: "I came clean, no mad!""
+    videoTitle: "I came clean, no mad!"
   },
   {
     id: "cap-hex-dumbbell",
