@@ -552,7 +552,7 @@ const marketProducts = [
     searchTerms: "4ft green artificial christmas tree arbol de navidad small fake xmas tree holiday home decor",
     amazonUrl: "https://link.amazon/B03xsQsgI",
     videoId: "u_USQY-grAY",
-    videoTitle: "\"I came clean, no mad!\""
+    videoTitle: "I came clean, no mad!"
   },
   {
     id: "washington-a-life-v2",
@@ -562,7 +562,7 @@ const marketProducts = [
     searchTerms: "washington a life ron chernow pulitzer prize winner biography founding fathers george washington",
     amazonUrl: "https://link.amazon/B0d7muyNW",
     videoId: "u_USQY-grAY",
-    videoTitle: "\"I came clean, no mad!\""
+    videoTitle: "I came clean, no mad!""
   },
   {
     id: "cap-hex-dumbbell",
